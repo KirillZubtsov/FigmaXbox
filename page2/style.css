@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.main{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background: #373A3C;
+}
+.logo{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.container{
+    font-family: 'Open Sans', sans-serif;
+}
+.menu {
+    position: absolute;
+    left: 430px;
+    opacity: 0.5;
+    top: 27px;
+}
+.menu a{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    margin-left: 50px;
+}
+.inputs input{
+    position: absolute;
+    width: 209px;
+    height: 38px;
+    left: 850px;
+    top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.users{
+    position: absolute;
+    left: 1180px;
+    top: 25px;
+}
+.users a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.centertext{
+    position: absolute;
+    color: white;
+    top: 300px;
+    left: 800px;
+    font-size: 30px;
+}
+.centertext h4{
+    font-size: 16px;
+}
+.buttons{
+    position: absolute;
+    top: 500px;
+    left: 800px;
+
+}
+.button1{
+    width: 136px;
+    height: 38px;
+    background: #8DD83D;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+}
+.button2{
+    width: 136px;
+    height: 38px;
+    background: #8DD83D;
+    border: 0;
+    border-radius: 4px;
+    margin-left: 10px;
+    color: white;
+}
+.center{
+    width: 100%;
+    height: 2800px;
+    background: radial-gradient(100% 100% at 50% 0%, rgba(76, 80, 82, 0.1) 0%, rgba(95, 98, 101, 0.1) 100%);
+}
+.text{
+    position: absolute;
+    top: 800px;
+    color: #435766;
+    left: 480px;
+    font-size: 32px;
+}
+.text button{
+    margin-top: 200px;
+}
+.button3{
+    position: absolute;
+    background: #8DD83D;
+    width: 150px;
+    height: 42px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    left: -40px;
+}
+.button4{
+    position: absolute;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    width: 215px;
+    height: 42px;
+    left: 120px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+.soldaty{
+    position: absolute;
+    top: 1200px;
+    left: 300px;
+}
+.one{
+    position: absolute;
+    width: 650px;
+    height:402px;
+}
+.strelka{
+    position: absolute;
+    top: 130px;
+    left: 270px;
+}
+.weare{
+    position: absolute;
+    color: #435766;
+    top: 1650px;
+    font-size: 26px;
+    width: 300px;
+    left: 150px;
+}
+.boty{
+    position: absolute;
+    height: 306px;
+    width: 501px;
+    left: 500px;
+    top: 30px;
+
+}
+.weare2{
+    position: absolute;
+    color: #435766;
+    top: 2500px;
+
+}
+.obrez{
+    position: absolute;
+    width: 501px;
+    height: 306px;
+    top: -450px;
+    left: 100px;
+}
+.weare2 h3{
+     position: absolute;
+    left: 700px;
+    top: -450px;
+    width: 400px;
+    font-size: 30px;
+}
+.ones{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    top: 2500px;
+    left: 240px;
+    color: #435766;
+    font-weight: bold;
+
+}
+.second{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    top: 2580px;
+    left: 240px;
+    color: #435766;
+    font-weight: bold;
+
+}
+.predfooter h2{
+    position: absolute;
+    top: 2400px;
+    left: 500px;
+    color: #435766;
+}
+.button5{
+    position: absolute;
+    background: #8DD83D;
+    width: 150px;
+    height: 42px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    left: 450px;
+    top: 2700px;
+}
+.button6{
+    position: absolute;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    width: 215px;
+    height: 42px;
+    left: 620px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    top: 2700px;
+}
+footer{
+    position: absolute;
+    background: #373A3C;
+    width: 100%;
+    height: 400px;
+    top: 2800px;
+
+}
+.box-11{
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    font-size: 14px;
+}
+.box-11 h5{
+    color: #8DD83D;
+    font-size: 15px;
+}
+.box-11 a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 30px;
+    font-size: 14px;
+
+}
+.box-12{
+    position: absolute;
+    top: 70px;
+    left: 580px;
+    font-size: 14px;
+}
+.box-12 h5{
+    color: #8DD83D;
+    font-size: 15px;
+}
+.box-12 a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 30px;
+    font-size: 14px;
+
+}
+.box-13{
+    position: absolute;
+    top: 70px;
+    left: 880px;
+    font-size: 14px;
+}
+.box-13 h5{
+    color: #8DD83D;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.box-13 a{
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+
+}
+.box-13 img{
+    margin-top: 20px;
+}
+.line{
+    position: absolute;
+    border-bottom: 1px solid rgba(255,255,255, 0.3);
+    top: 320px;
+    width: 1100px;
+    left: 80px;
+}
+.line div p{
+    color: white;
+}
+.pio{
+    position: absolute;
+    top: 40px;
+    opacity: 1;
+}
+.pit{
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
