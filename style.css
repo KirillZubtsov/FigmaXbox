@@ -3,6 +3,7 @@
 
 *{
     margin: 0 auto;
+    box-sizing: border-box;
 }
 .main{
     position: absolute;
