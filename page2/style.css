@@ -70,7 +70,6 @@ header{
     position: absolute;
     top: 500px;
     left: 800px;
-
 }
 .button1{
     width: 136px;
@@ -159,7 +158,6 @@ header{
     position: absolute;
     color: #435766;
     top: 2500px;
-
 }
 .obrez{
     position: absolute;
@@ -184,7 +182,6 @@ header{
     left: 240px;
     color: #435766;
     font-weight: bold;
-
 }
 .second{
     position: absolute;
@@ -195,7 +192,6 @@ header{
     left: 240px;
     color: #435766;
     font-weight: bold;
-
 }
 .predfooter h2{
     position: absolute;
@@ -231,7 +227,6 @@ footer{
     width: 100%;
     height: 400px;
     top: 2800px;
-
 }
 .box-11{
     position: absolute;
@@ -249,7 +244,6 @@ footer{
     display: block;
     margin-top: 30px;
     font-size: 14px;
-
 }
 .box-12{
     position: absolute;
@@ -267,7 +261,6 @@ footer{
     display: block;
     margin-top: 30px;
     font-size: 14px;
-
 }
 .box-13{
     position: absolute;
@@ -284,7 +277,6 @@ footer{
     color: white;
     margin-left: 20px;
     font-size: 14px;
-
 }
 .box-13 img{
     margin-top: 20px;
@@ -308,4 +300,124 @@ footer{
     position: absolute;
     right: 0;
     top: 40px;
+}
+@media all and (max-width: 812px){
+    .main{
+        height: 50vh;
+        top: 300px;
+    }
+    header{
+        height: 300px;
+    }
+    .menu{
+        flex-direction: column;
+        color: black;
+        left: -30px;
+        top: 70px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .inputs input{
+        left: 90px;
+        top: 170px;
+    }
+    .users{
+        left: 250px;
+    }
+    .centertext{
+        left: 50px;
+        top: 450px;
+        text-align: center;
+    }
+    .buttons{
+        left: 40px;
+        top: 600px;
+    }
+    .text{
+        left: 40px;
+        top: 720px;
+    }
+    .one{
+        left: -287px;
+        width: 350px;
+        height: 250px;
+        top: -100px;
+    }
+    .strelka{
+        left: -160px;
+        width: 100px;
+        height: 100px;
+        top: -20px;
+    }
+    .weare{
+        left: 60px;
+        top: 1400px;
+    }
+    .boty{
+        left: -25px;
+        width: 300px;
+        height: 200px;
+        top: 150px;
+    }
+    .weare2{
+        left: -630px;
+        top: 2250px;
+    }
+    .obrez{
+        width: 300px;
+        height: 200px;
+        left: 665px;
+        top: -370px;
+    }
+    .predfooter h2{
+        left: 60px;
+        top: 2150px;
+    }
+    .ones{
+        flex-direction: column;
+        left: 100px;
+        width: 200px;
+        top: 2200px;
+    }
+    .ones p{
+        margin-top: 15px;
+    }
+    .second{
+        flex-direction: column;
+        left: 100px;
+        width: 200px;
+        top: 2450px;
+    }
+    .second p{
+        margin-top: 15px;
+    }
+    footer {
+        top:2800px;
+        height: 700px;
+    }
+    .box-11{
+        left: 25px;
+    }
+    .box-12{
+        left: 225px;
+        text-align: right;
+    }
+    .box-13{
+        left: 100px;
+        text-align: center;
+        top: 400px;
+    }
+    .line{
+        width: 350px;
+        left: 10px;
+        top: 600px;
+    }
+    .button5{
+        left: 10px;
+    }
+    .button6{
+        left: 190px;
+        width: 180px;
+    }
+
 }
