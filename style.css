@@ -586,28 +586,28 @@ footer{
     }
     .box{
         top: 705px;
-        height: 1700px;
+        height: 1600px;
         background: radial-gradient(200% 150% at 50% 20%, #686C6F 0%, #373A3C 100%);
         opacity: 1;
     }
     .box-2{
-        top: 300px;
+        top: 400px;
         left: 0;
     }
     .soldat{
-        top: 2400px;
+        top: 2300px;
         height: 2000px;
     }
     .box-1{
         left: 0;
-        top: 250px;
+        top: 350px;
     }
     .box-3{
         left: 0;
-        top: 350px;
+        top: 450px;
     }
     .pred{
-        top: 4700px;
+        top: 4300px;
     }
     .box-7{
         top: 6000px;
@@ -616,7 +616,7 @@ footer{
         top: 6100px;
     }
     .opacity{
-        top: 2400px;
+        top: 2300px;
         height: 2000px;
     }
     .box-5 h2{
@@ -660,7 +660,7 @@ footer{
         width: 200px;
     }
     footer {
-        top:5250px;
+        top:4850px;
         height: 700px;
     }
     .box-11{
