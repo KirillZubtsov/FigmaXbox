@@ -16,17 +16,52 @@ header{
     height: 80px;
     background: #373A3C;
 }
+.dropdown{
+    left: -210px;
+    top: 20px;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+.dropdown button{
+    background: none;
+    border: none;
+    opacity: 0.3;
+}
+.dropdown1{
+    position: absolute;
+    left: 500px;
+    top: 20px;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+.dropdown1 button{
+    background: none;
+    border: none;
+    opacity: 0.3;
+}
+.dropdown2{
+    position: absolute;
+    left:20px;
+    top: -2px;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+.dropdown2 button {
+    background: none;
+    border: none;
+    opacity: 0.3;
+}
 .logo{
     position: absolute;
     top: 25px;
     left: 25px;
 }
-.container{
+.container1{
     font-family: 'Open Sans', sans-serif;
 }
 .menu {
     position: absolute;
-    left: 430px;
+    left: 580px;
     opacity: 0.5;
     top: 27px;
 }
@@ -48,13 +83,8 @@ header{
 }
 .users{
     position: absolute;
-    left: 1180px;
+    left: 1160px;
     top: 25px;
-}
-.users a{
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
 }
 .centertext{
     position: absolute;
@@ -309,11 +339,26 @@ footer{
     header{
         height: 300px;
     }
+    .dropdown{
+        left: -100px;
+        top: 63px;
+    }
+    .dropdown button{
+        font-size: 20px;
+    }
+    .dropdown1{
+        left: 230px;
+        top: 65px;
+
+    }
+    .dropdown1 button{
+        font-size: 20px;
+    }
     .menu{
         flex-direction: column;
         color: black;
-        left: -30px;
-        top: 70px;
+        left: 80px;
+        top: 120px;
         font-size: 20px;
         text-align: center;
     }
