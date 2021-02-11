@@ -142,6 +142,7 @@ header{
     border-radius: 4px;
     color: white;
     left: -40px;
+    font-size: 15px;
 }
 .button4{
     position: absolute;
@@ -152,6 +153,7 @@ header{
     border: none;
     border-radius: 4px;
     color: white;
+    font-size: 15px;
 }
 .soldaty{
     position: absolute;
@@ -349,7 +351,6 @@ footer{
     .dropdown1{
         left: 230px;
         top: 65px;
-
     }
     .dropdown1 button{
         font-size: 20px;
